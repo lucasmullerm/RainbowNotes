@@ -30,6 +30,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         Log.d("-------->>>CLICOU", "clicou no botao. Texto = " + mainEditText.getText().toString());
         mNameList.add(mainEditText.getText().toString());
         mArrayAdapter.notifyDataSetChanged();
+        mainEditText.setText("");
     }
 
     @Override
