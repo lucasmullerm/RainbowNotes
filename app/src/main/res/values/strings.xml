@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">RainbowNotes</string>
+
+    <string name="textview">Hello world!</string>
+    <string name="addbutton">Adicionar</string>
+    <string name="hint">Nova Nota</string>
+    <string name="action_settings">Settings</string>
+</resources>
