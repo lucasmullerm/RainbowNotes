@@ -1,6 +1,8 @@
 package com.rainbownotes;
 
 import android.app.Activity;
+import android.net.Uri;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -17,7 +19,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-public class MainActivity extends Activity /*implements View.OnClickListener, AdapterView.OnItemClickListener */{
+public class MainActivity extends FragmentActivity implements NoteFragment.OnFragmentInteractionListener /*implements View.OnClickListener, AdapterView.OnItemClickListener */{
 
     ListView mainListView;
     ArrayList mNameList = new ArrayList();
@@ -69,6 +71,11 @@ public class MainActivity extends Activity /*implements View.OnClickListener, Ad
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.menu_main, menu);
         return true;
+    }
+
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+
     }
 
     /*@Override
