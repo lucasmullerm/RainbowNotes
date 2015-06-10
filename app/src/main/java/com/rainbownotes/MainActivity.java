@@ -38,7 +38,17 @@ public class MainActivity extends FragmentActivity implements NoteFragment.OnFra
 
     @Override
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-        Log.d("-------->>>>ADICIONOU", position + ": " + mNameList.get(position));
+
+        try {
+            mNameList.remove(position);
+            mArrayAdapter.notifyDataSetChanged();
+            Log.d("-------->>>>ADICIONOU", position + ": " + mNameList.get(position));
+        }
+        catch(Exception e) {
+
+        }
+
+
     }
 */
 
