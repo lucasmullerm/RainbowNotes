@@ -2,32 +2,32 @@
 <items version="2" >
 
     <item
-        jar="/home/lucasmullerm/AndroidStudioProjects/RainbowNotes/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jar="C:\Users\caique\projetos\RainbowNotes\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0 rc1"
         sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="/home/lucasmullerm/AndroidStudioProjects/RainbowNotes/app/build/intermediates/pre-dexed/debug/classes-426a9f931ae34e716d73c24a2f3ce4196b0727b5.jar" />
+        <dex dex="C:\Users\caique\projetos\RainbowNotes\app\build\intermediates\pre-dexed\debug\classes-2be6957bedebec6b7be02309cf40e18c9d45cc96.jar" />
     </item>
     <item
-        jar="/home/lucasmullerm/AndroidStudioProjects/RainbowNotes/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jar="C:\Users\caique\projetos\RainbowNotes\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="23.0.0 rc1"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
-        <dex dex="/home/lucasmullerm/AndroidStudioProjects/RainbowNotes/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-05614d269e6e52b07a82f43b8352c1bb80aaa8c3.jar" />
+        <dex dex="C:\Users\caique\projetos\RainbowNotes\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-8491be9bd341bbf326ddf2cefd70f072bd555c68.jar" />
     </item>
     <item
-        jar="/home/lucasmullerm/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jar="C:\Users\caique\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="23.0.0 rc1"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
-        <dex dex="/home/lucasmullerm/AndroidStudioProjects/RainbowNotes/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-e18ffecac16ca5979abe9702d1c96eebe55e04d6.jar" />
+        <dex dex="C:\Users\caique\projetos\RainbowNotes\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-434526bbdc88a1f8fef6c71a5a8502ed2c5a3c3e.jar" />
     </item>
     <item
-        jar="/home/lucasmullerm/AndroidStudioProjects/RainbowNotes/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jar="C:\Users\caique\projetos\RainbowNotes\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="23.0.0 rc1"
         sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
-        <dex dex="/home/lucasmullerm/AndroidStudioProjects/RainbowNotes/app/build/intermediates/pre-dexed/debug/classes-fa0de4a6592ca1b0737c1d5fe9772a4a84fb834f.jar" />
+        <dex dex="C:\Users\caique\projetos\RainbowNotes\app\build\intermediates\pre-dexed\debug\classes-deb4688bceef826cf0d62018306010049a62c01c.jar" />
     </item>
 
 </items>

@@ -1,5 +1,6 @@
 package com.rainbownotes;
 
+import android.app.Activity;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -16,7 +17,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 
 
-public class MainActivity extends ActionBarActivity implements View.OnClickListener, AdapterView.OnItemClickListener{
+public class MainActivity extends Activity /*implements View.OnClickListener, AdapterView.OnItemClickListener */{
 
     ListView mainListView;
     ArrayList mNameList = new ArrayList();
@@ -24,7 +25,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     Button addButton;
     EditText mainEditText;
 
-
+/*
     @Override
     public void onClick (View view) {
         Log.d("-------->>>CLICOU", "clicou no botao. Texto = " + mainEditText.getText().toString());
@@ -37,7 +38,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
     public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
         Log.d("-------->>>>ADICIONOU", position + ": " + mNameList.get(position));
     }
-
+*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +47,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
         //TextView mainTextView = (TextView) findViewById(R.id.main_textview);
         //mainTextView.setText("Novo Texto ");
-
+/*
         mainListView = (ListView) findViewById(R.id.main_listview);
         mArrayAdapter = new ArrayAdapter(this, android.R.layout.simple_list_item_1, mNameList);
         mainListView.setAdapter(mArrayAdapter);
@@ -59,7 +60,7 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
         mainListView.setOnItemClickListener(this);
 
         mainEditText = (EditText) findViewById(R.id.main_edittext);
-
+*/
 
     }
 
